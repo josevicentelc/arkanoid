@@ -1,0 +1,45 @@
+***************************************************************************************************
+Build 1
+
+***************************************************************************************************
+Implementar puntuacion
+
+Evitar ciclos de rebotes infinitos
+    En ocasiones el juego se queda de manera infinita entre ladrillos rebotando
+    Esto debería solucionarse evitando los rebotes de esquina
+
+Fondos de nivel
+    Incluir un selector en el constructor del nivel para seleccionar el fondo
+
+La velocidad de los elementos debe ir en proporcion al tamanyo de la pantalla
+
+Implementar pegamento
+
+Al cambiar de nivel, se vuelve a llamar a los constructores y las vidas vuelven a ser 3
+
+Poner un identificativo de JVLC sobre el logo de TAITO
+
+Evitar los rebotes a 90 grados, restan jugabilidad
+    *Mejora la jugabilidad
+    *Se evita bug con el multiplicador de 3 bolas que mata al jugador
+
+Si la pelota esta pegada al jugador, entonces el multiplicador de x3 no hace nada
+    De lo contrario, el jugador morira en el momento de destruir la bola maestra
+
+***************************************************************************************************
+Tareas pendientes
+
+Poner icono a la aplicacion
+
+La pelota debe acelerar
+    Esta tarea es complicada y se ha anulado su implementacion porque si avanza muy rapido puede llegar
+    a sobrepasar los margenes de colision de los objetos
+
+Orientacion de la pantalla a "portrait" cuando se compila el APK
+    Al probar en un telefono mobil, el juego aparece invertido
+
+Pantalla de GameOver
+    No se ha implementado pantalla de Game Over
+
+Hacer parpadear un texto de "Pulse para Jugar"
+
